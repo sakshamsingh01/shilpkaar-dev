@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- positivezoom -->
+    <link rel="stylesheet" href="assets/gallery/positive-zoom.css">
+  <!-- custom css -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="images/shlip-favicon.png" type="image/x-icon">
+  <title>Shilpkar | Buy Authentc Handicrafts</title>
+</head>
+
+<body>
+  <!-- upper nav -->
+  <nav class="container-fluid">
+    <div class="container-fluid">
+      <ul class="nav justify-content-between mt-2">
+        <li class="nav-item">
+          <div class="btn-group btn-group-sm border rounded-pill overflow-hidden lng-nav" role="group">
+            <button type="button" class="btn btn-light border-0">
+              हिन्दी</button>
+            <button type="button" class="btn btn-light border-0 active-btn">ENG</button>
+          </div>
+        </li>
+        <li class="nav-item d-flex">
+          <a class="nav-link user-link" aria-current="page" href="usersignup.html" title="Signup">
+            <svg width="26" height="26" viewBox="0 0 66 66" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M26.125 34.5226C33.7 34.5226 39.7722 28.3719 39.7722 20.6988C39.7722 13.0257 33.7 6.875 26.125 6.875C18.5499 6.875 12.4777 13.0257 12.4777 20.6988C12.4777 28.3719 18.5499 34.5226 26.125 34.5226ZM26.125 41.2918C14.9991 41.2918 5.5 43.0706 5.5 50.1777C5.5 57.282 14.9413 59.125 26.125 59.125C37.2481 59.125 46.75 57.3461 46.75 50.2391C46.75 43.132 37.3087 41.2918 26.125 41.2918ZM54.7193 26.3666H58.0278C59.3896 26.3666 60.5 27.4926 60.5 28.8736C60.5 30.2545 59.3896 31.3805 58.0278 31.3805H54.7193V34.6181C54.7193 35.999 53.6118 37.125 52.2472 37.125C50.8854 37.125 49.775 35.999 49.775 34.6181V31.3805H46.4722C45.1075 31.3805 44 30.2545 44 28.8736C44 27.4926 45.1075 26.3666 46.4722 26.3666H49.775V23.1319C49.775 21.751 50.8854 20.625 52.2472 20.625C53.6118 20.625 54.7193 21.751 54.7193 23.1319V26.3666Z"
+                fill="white" />
+            </svg>
+          </a>
+          <a class="nav-link user-link" aria-current="page" href="userlogin.html" title="Login">
+            <svg width="23" height="23" viewBox="0 0 44 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M36.5585 15.0504C36.5585 23.1272 30.0826 29.6035 22.0001 29.6035C13.9203 29.6035 7.44162 23.1272 7.44162 15.0504C7.44162 6.97356 13.9203 0.5 22.0001 0.5C30.0826 0.5 36.5585 6.97356 36.5585 15.0504ZM22 55.5C10.0715 55.5 0 53.5613 0 46.0812C0 38.5984 10.1348 36.7283 22 36.7283C33.9312 36.7283 44 38.6671 44 46.1472C44 53.63 33.8652 55.5 22 55.5Z"
+                fill="#F0AF24" />
+            </svg>
+          </a>
+
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark mt-2">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><svg width="51" height="39" viewBox="0 0 51 103" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_6_263)">
+            <path
+              d="M8.77437 31.5023C5.0284 29.0381 3.08981 23.3262 5.66665 19.3189C6.96103 17.2434 11.2259 14.7822 13.2928 17.5036C13.943 18.2811 14.0712 20.4941 13.0363 21.0025C11.8731 21.5229 11.3572 20.225 12.1416 19.4475C9.55875 17.7608 9.03981 23.4667 12.401 24.3729C15.6251 25.1504 17.2982 21.3913 16.7912 18.7985C15.1091 12.0578 5.80384 13.6159 3.60577 19.0587C1.79542 23.8435 4.12174 29.687 8.77437 31.6189"
+              fill="#F0AF24" />
+            <path
+              d="M8.51785 31.8911C3.4775 30.4647 0.632232 25.4196 1.1482 20.2251C1.92364 13.2242 7.22644 8.29881 14.0771 8.17022C16.7912 8.04163 20.2807 8.81917 22.7263 7.27306C25.4403 5.71499 25.3121 2.34765 23.621 0.0120412C30.7521 -0.254116 28.9298 11.2804 23.5136 12.967C17.0507 14.9109 11.1036 9.9765 5.54434 15.6884C3.21802 18.1526 1.40767 22.0403 2.44258 25.4196C3.33732 28.5298 5.80381 29.9563 8.00188 31.9001"
+              fill="#F0AF24" />
+            <path
+              d="M32.0733 63.1392C29.6548 65.5338 26.7981 67.4377 23.6598 68.7464C22.8245 69.0924 21.9628 69.3704 21.083 69.5778C21.0357 69.5945 20.9841 69.5945 20.9368 69.5778C20.7792 69.4758 20.6296 69.3619 20.4894 69.2369C20.1037 68.9737 19.713 68.7195 19.3173 68.4743C17.9306 67.618 16.4531 66.9189 14.9123 66.3899C11.8731 65.3671 8.40156 64.9634 5.28489 65.8905C2.78559 66.6232 0.644187 68.3666 0.140152 71.0192C-0.14799 72.4992 0.00128064 74.0313 0.569626 75.4273C1.18034 76.7748 2.14021 77.9335 3.34927 78.7827C5.96191 80.6876 9.34103 81.4293 12.5233 81.4173C14.2417 81.4117 15.9527 81.1927 17.6173 80.7654C18.4048 80.5624 19.1771 80.3046 19.9287 79.9938L20.4626 79.7636C20.5464 79.725 20.6386 79.7087 20.7305 79.716C20.8224 79.7233 20.9109 79.7541 20.9875 79.8054C21.3613 80.0666 21.7331 80.3298 22.103 80.5949C24.8869 82.642 27.5349 84.8687 30.0303 87.2608C34.9544 91.9171 39.4072 96.998 43.6661 102.264V102.279C43.8286 102.48 44.0292 102.646 44.2563 102.768C44.4835 102.89 44.7325 102.965 44.989 102.99C45.2455 103.014 45.5043 102.987 45.7503 102.911C45.9963 102.834 46.2246 102.709 46.4219 102.542L49.4282 100.007L50.5437 99.0675C50.6212 99.0017 50.9672 98.7953 50.988 98.6937C51.0089 98.592 50.648 98.2421 50.6003 98.1793L50.1172 97.5483C49.7473 97.0738 49.3735 96.6003 48.9958 96.1278C47.7521 94.5757 46.4666 93.0565 45.1603 91.5553C42.5179 88.5139 39.7501 85.5742 36.893 82.7451C34.9275 80.7923 32.9293 78.8574 30.8207 77.0631C30.43 76.7312 30.0393 76.4022 29.6277 76.0792L28.9984 75.5738C28.7658 75.3914 28.7002 75.3137 28.9238 75.1193C29.1694 74.9426 29.4311 74.7894 29.7052 74.6617L30.3494 74.273C30.8982 73.932 31.439 73.5792 31.9719 73.2143C34.1783 71.7167 36.2331 70.0059 38.1068 68.1065C39.0365 67.1602 39.9117 66.1618 40.7284 65.1159C41.1261 64.6215 41.4989 64.1171 41.8468 63.6027C42.1958 63.1003 42.4433 62.5411 42.7416 62.0237L42.673 61.9938C42.9595 61.6875 43.2115 61.3506 43.4245 60.989C43.687 60.6241 43.9405 60.2533 44.1791 59.8735C44.6415 59.1401 45.0588 58.3791 45.4287 57.5947C46.1506 56.0626 46.7104 54.4589 47.0989 52.8099C47.8512 49.5456 48.0798 46.1819 47.7759 42.8454C47.5123 40.219 46.8881 37.6417 45.9209 35.1867C44.9576 32.5769 43.6355 30.1149 41.993 27.8718C40.4212 25.7784 38.4796 23.8794 36.1265 22.6802C33.5914 21.3913 30.7163 21.185 27.9187 21.4123C21.7272 21.9386 16.153 25.3 12.4398 30.2433C11.5033 31.4934 10.7338 32.8451 9.92559 34.1759C9.03085 35.6382 8.13612 37.0946 7.27419 38.566C5.18647 42.1277 3.18524 45.812 2.03103 49.8044C1.95945 50.0526 1.8998 50.3038 1.84015 50.555C1.72085 51.0604 1.58366 51.8709 2.36805 51.82C2.69015 51.8021 2.83033 51.5568 2.96454 51.2997C3.14945 50.9587 3.33436 50.6178 3.52226 50.2799C3.87717 49.6309 4.23208 48.985 4.60787 48.348C6.05436 45.8988 7.86173 43.4675 10.6026 42.4148C13.3435 41.3621 16.3528 41.7898 18.9982 40.5128C20.3261 39.884 21.4908 38.9557 22.4012 37.8004C23.119 36.7655 23.7042 35.6442 24.143 34.463C24.99 32.4264 25.8072 29.6093 28.0201 28.6703C29.9856 27.8419 32.121 27.7731 34.0179 28.8258C36.0042 29.9173 37.4298 31.8582 38.4916 33.7991C39.4053 35.5061 40.1217 37.3121 40.627 39.182C41.3323 41.5492 41.6477 44.0159 41.5605 46.4849C41.3905 49.6609 40.2572 52.5916 38.5154 55.2203C37.6982 56.4524 36.7856 57.6127 35.8521 58.7581"
+              fill="#F0AF24" />
+          </g>
+          <defs>
+            <clipPath id="clip0_6_263">
+              <rect width="51" height="103" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+        Bazaar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="aboutus.html">About us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Categories
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="bazar.html">Wooden Handicrafts</a></li>
+              <li><a class="dropdown-item" href="bazar.html">Clay & pottery</a></li>
+              <li><a class="dropdown-item" href="bazar.html"> Leather</a></li>
+              <li><a class="dropdown-item" href="bazar.html">Jute</a></li>
+              <li><a class="dropdown-item" href="bazar.html">Shell</a></li>
+              <li><a class="dropdown-item" href="bazar.html">Metal Handicrafts</a></li>
+              <li><a class="dropdown-item" href="bazar.html">Bamboo & Cane</a></li>
+              <li><a class="dropdown-item" href="bazar.html">Stone</a></li>
+              <li><a class="dropdown-item" href="bazar.html">Bone & Horn</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="bazar.html">Today's Deal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="contactus.html">Contact us</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#" title="cart">
+              <svg width="60" height="24" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M36.3639 27.6993H44.6674C45.9264 27.6993 46.9157 26.6584 46.9157 25.4032C46.9157 24.1173 45.9264 23.107 44.6674 23.107H36.3639C35.1049 23.107 34.1157 24.1173 34.1157 25.4032C34.1157 26.6584 35.1049 27.6993 36.3639 27.6993ZM54.5297 11.7825C56.3583 11.7825 57.5574 12.4254 58.7564 13.8337C59.9555 15.242 60.1653 17.2626 59.8956 19.0965L57.0478 39.1801C56.5082 43.0407 53.2707 45.8848 49.4637 45.8848H16.7592C12.7723 45.8848 9.47484 42.7651 9.1451 38.7239L6.38725 5.35021L1.86078 4.55421C0.661711 4.33991 -0.177635 3.14591 0.0322013 1.9213C0.242038 0.669135 1.41113 -0.160538 2.64017 0.0262149L9.7896 1.1253C10.8088 1.31206 11.5582 2.16622 11.6482 3.20714L12.2177 10.065C12.3076 11.0477 13.087 11.7825 14.0463 11.7825H54.5297ZM16.2789 50.7235C13.7608 50.7235 11.7224 52.8054 11.7224 55.3771C11.7224 57.9181 13.7608 60 16.2789 60C18.7669 60 20.8054 57.9181 20.8054 55.3771C20.8054 52.8054 18.7669 50.7235 16.2789 50.7235ZM50.0027 50.7235C47.4846 50.7235 45.4462 52.8054 45.4462 55.3771C45.4462 57.9181 47.4846 60 50.0027 60C52.4907 60 54.5291 57.9181 54.5291 55.3771C54.5291 52.8054 52.4907 50.7235 50.0027 50.7235Z"
+                  fill="white" />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- main -->
+  <div class="container">
+    <div class="mt-3" id="exotic">
+        <a href="bazar.html" title="back" class="text-decoration-none">
+            <svg width="39" height="22" viewBox="0 0 39 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M38.4999 12.3334V15.6667H9.99988L23.0624 24.8334L19.6899 27.2L0.879883 14L19.6899 0.800049L23.0624 3.16672L9.99988 12.3334H38.4999Z"
+                    fill="white" />
+            </svg>
+        </a>
+
+        <div class="row mt-3">
+            <div class="col-md-6">
+                <div id="slider-zoom" class="positive-gallery-slider">
+                    <div class="side-img">
+                      <img src="images\Mangalagiri Sarees and Fabrics - 10 1.png" alt="image-1" class="small-preview" id="product-img-1">                    
+                      <img src="images\Mangalagiri Sarees and Fabrics - 10 2.png" alt="image-2" class="small-preview" id="product-img-2">
+                      <img src="images\Mangalagiri Sarees and Fabrics - 10 3.png" alt="image-3" class="small-preview" id="product-img-3">
+                    </div>
+                    <div class="zoom-image"></div>
+                  </div>
+                <!-- <div class="rounded">
+                    <img src="images/Bobbili Veena - 3 1.png" alt="course" width="100%" class="rounded-4"
+                        id="course-img">
+                </div> -->
+            </div>
+           
+            <div class="col-md-6 mt-3 mt-md-0">
+                <div class="p-4">
+                    <h4 class="pb-2">Mangalagiri Saree in blue and red with Beautiful stripe apttern
+
+
+
+
+                    </h4>
+                    <h4 class="pb-2">₹ <span>3020</span></h4>
+                    <div class="mb-3">
+                        <span class="checked-star">
+                            <svg width="30" height="20" viewBox="0 0 30 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15 0L18.3677 10.3647H29.2658L20.4491 16.7705L23.8168 27.1353L15 20.7295L6.18322 27.1353L9.55093 16.7705L0.734152 10.3647H11.6323L15 0Z" fill="#F0AF24"/>
+                            </svg>
+                            </span>
+                        <span class="checked-star">
+                            <svg width="30" height="20" viewBox="0 0 30 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15 0L18.3677 10.3647H29.2658L20.4491 16.7705L23.8168 27.1353L15 20.7295L6.18322 27.1353L9.55093 16.7705L0.734152 10.3647H11.6323L15 0Z" fill="#F0AF24"/>
+                            </svg>
+                            </span>
+                        <span class="checked-star"> 
+                            <svg width="30" height="20" viewBox="0 0 30 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15 0L18.3677 10.3647H29.2658L20.4491 16.7705L23.8168 27.1353L15 20.7295L6.18322 27.1353L9.55093 16.7705L0.734152 10.3647H11.6323L15 0Z" fill="#F0AF24"/>
+                            </svg>
+                            </span>
+                        <span class="checked-star">
+                            <svg width="30" height="20" viewBox="0 0 30 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15 0L18.3677 10.3647H29.2658L20.4491 16.7705L23.8168 27.1353L15 20.7295L6.18322 27.1353L9.55093 16.7705L0.734152 10.3647H11.6323L15 0Z" fill="#F0AF24"/>
+                            </svg>
+                            </span>
+                            <span class="unchecked-star">
+                                <svg width="30" height="20" viewBox="0 0 30 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15 0L18.3677 10.3647H29.2658L20.4491 16.7705L23.8168 27.1353L15 20.7295L6.18322 27.1353L9.55093 16.7705L0.734152 10.3647H11.6323L15 0Z" fill="#C4C4C4"/>
+                                    </svg>
+                                    
+                            </span>
+                    </div>
+                    <p>These cotton saris are known for featuring micro checks or stripes on the field with a dense zariborder giving the sari a beautiful drape.The Mangalagiri fabric is produced by weaving with the help of pit looms from combed yarn by warp and weft interlacing. The fabric then undergoes the process of dyeing. The Nizam design borders with golden thread and plain body are  the main characteristics of the fabric. Mangalagiri sarees are woven from pure cotton .They are very popular for their delicate and distinctive designs . The sari is woven super finely in vibrant colours giving a crisp finish.
+                    </p>
+
+                    <div class="d-grid gap-4 mt-5 col-5">
+                        <button type="button" class="btn btn-primary rounded-pill">
+                            <svg width="60" height="30"
+                            viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M36.3639 27.6993H44.6674C45.9264 27.6993 46.9157 26.6584 46.9157 25.4032C46.9157 24.1173 45.9264 23.107 44.6674 23.107H36.3639C35.1049 23.107 34.1157 24.1173 34.1157 25.4032C34.1157 26.6584 35.1049 27.6993 36.3639 27.6993ZM54.5297 11.7825C56.3583 11.7825 57.5574 12.4254 58.7564 13.8337C59.9555 15.242 60.1653 17.2626 59.8956 19.0965L57.0478 39.1801C56.5082 43.0407 53.2707 45.8848 49.4637 45.8848H16.7592C12.7723 45.8848 9.47484 42.7651 9.1451 38.7239L6.38725 5.35021L1.86078 4.55421C0.661711 4.33991 -0.177635 3.14591 0.0322013 1.9213C0.242038 0.669135 1.41113 -0.160538 2.64017 0.0262149L9.7896 1.1253C10.8088 1.31206 11.5582 2.16622 11.6482 3.20714L12.2177 10.065C12.3076 11.0477 13.087 11.7825 14.0463 11.7825H54.5297ZM16.2789 50.7235C13.7608 50.7235 11.7224 52.8054 11.7224 55.3771C11.7224 57.9181 13.7608 60 16.2789 60C18.7669 60 20.8054 57.9181 20.8054 55.3771C20.8054 52.8054 18.7669 50.7235 16.2789 50.7235ZM50.0027 50.7235C47.4846 50.7235 45.4462 52.8054 45.4462 55.3771C45.4462 57.9181 47.4846 60 50.0027 60C52.4907 60 54.5291 57.9181 54.5291 55.3771C54.5291 52.8054 52.4907 50.7235 50.0027 50.7235Z"
+                                fill="white" />
+                        </svg>Add to Cart</button>
+                        <a type="button" class="btn btn-primary rounded-pill" href="detailedcourse.html">
+                            <svg width="30" height="30" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M10.4133 2.66675H21.588C25.7067 2.66675 28 5.04008 28 9.10675V22.8801C28 27.0134 25.7067 29.3334 21.588 29.3334H10.4133C6.36 29.3334 4 27.0134 4 22.8801V9.10675C4 5.04008 6.36 2.66675 10.4133 2.66675ZM10.7733 8.88002V8.86668H14.7587C15.3333 8.86668 15.8 9.33335 15.8 9.90535C15.8 10.4934 15.3333 10.96 14.7587 10.96H10.7733C10.1987 10.96 9.73333 10.4934 9.73333 9.92002C9.73333 9.34668 10.1987 8.88002 10.7733 8.88002ZM10.7733 16.9867H21.2267C21.8 16.9867 22.2667 16.5201 22.2667 15.9467C22.2667 15.3734 21.8 14.9054 21.2267 14.9054H10.7733C10.1987 14.9054 9.73333 15.3734 9.73333 15.9467C9.73333 16.5201 10.1987 16.9867 10.7733 16.9867ZM10.7733 23.08H21.2267C21.7587 23.0266 22.16 22.572 22.16 22.04C22.16 21.4933 21.7587 21.04 21.2267 20.9866H10.7733C10.3733 20.9466 9.98666 21.1333 9.77333 21.48C9.56 21.8133 9.56 22.2533 9.77333 22.6C9.98666 22.9333 10.3733 23.1333 10.7733 23.08Z" fill="white"/>
+                            </svg>
+                            Learn</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+ </div>
+ </div>
+
+  <!-- footer -->
+  <footer class="copyright mt-5">
+    <div class="container py-2 text-center text-white">
+        <p>&copy; Copyright <b>Shilpkar</b>. All Rights Reserved 2022.</p>
+    </div>
+  </footer>
+
+  <!-- bootstrap script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+    <!-- positivezoom -->
+    <script src="assets/gallery/positive-zoom.js"></script>
+    <script>positiveZoom.init('#slider-zoom')</script>
+    
+
+</body>
+
+</html>

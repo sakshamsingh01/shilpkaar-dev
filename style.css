@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+    --color-primary: #081423; 
+    --color-secondary: #EAAB23;
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-nav: #0B1C30;
+    --color-nav-title: #EFF1F1;
+    --color-product-text: #200E32;
+}
+
+body{
+    background-color: var(--color-primary);
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-white)
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.btn-primary{
+    background-color: var(--color-secondary);
+    border: 0;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: var(--color-secondary);
+    border: 0;
+    font-weight: bold;
+    box-shadow: none;
+}
+.btn-primary:focus{
+    background-color: var(--color-secondary);
+    border: 0;
+    font-weight: bold;
+    box-shadow: none !important;
+}
+.main-bg{
+height: 100vh;
+}
+#rangoli{
+    height: 100vh;
+}
+.lng-nav{
+    color: var(--color-black);
+    background-color: var(--color-white);
+    border-bottom-width: 0px !important;
+    border-top-width: 0px !important;
+}
+.btn-light:hover{
+    background-color: var(--color-white);
+    border: 0;
+    z-index: 0;
+    box-shadow: none;
+}
+.btn-light:focus{
+    background-color: var(--color-white);
+    border: 0;
+    box-shadow: none !important;
+}
+.btn-light:active{
+    background-color: var(--color-secondary) !important;
+    border: 0;
+    box-shadow: none !important;
+}
+.active-btn:hover{
+    background-color: var(--color-secondary);
+    border: 0;
+    z-index: 0 !important;
+    box-shadow: none;
+}
+.active-btn:focus{
+    background-color: var(--color-secondary);
+    border: 0;
+    box-shadow: none !important;
+}
+
+.active-btn{
+    background-color: var(--color-secondary);
+}
+.navbar{
+    background-color: var(--color-nav);
+}
+.navbar-brand{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.user-link{
+    padding-right: 0;
+}
+.catlouge-title::after {
+    display: inline-block;
+    height: 1.5px;
+    width: 120px;
+    content: '';
+    margin: 7px 10px;
+    background-color: var(--color-nav-title);
+}
+.catlouge-title {
+    color: var(--color-secondary);
+}
+.copyright{
+    background-color: var(--color-nav);
+}
+
+/* horizontal catlouge */
+.scrolling-wrapper{
+	overflow-x: auto;
+}
+.imgDiv{
+    height: 80%;
+}
+.card-block{
+	height: 300px;
+	background-color: var(--color-secondary);
+    color: var(--color-product-text);
+    cursor: pointer;
+	border: none;
+    overflow: hidden;
+	background-position: center;
+	background-size: cover;
+	transition: all 0.2s ease-in-out !important;
+	border-radius: 24px;
+    
+}
+.card-block:hover{
+		transform: translateY(-5px);
+		box-shadow: none;
+		opacity: 0.9;
+	}
+.card-block-last-div{
+	height: 300px;
+	background-color: var(--color-secondary);
+    color: var(--color-product-text);
+    cursor: pointer;
+	border: none;
+    overflow: hidden;
+	background-position: center;
+	background-size: cover;
+	transition: all 0.2s ease-in-out !important;
+	border-radius: 24px;
+    
+}
+.card-block-last-div:hover{
+		transform: translateY(-5px);
+		box-shadow: none;
+		opacity: 0.9;
+	}
+.badge{
+    background-color: var(--color-product-text);
+    font-size: 1.1rem;
+    color: var(--color-white);
+    height: 40px;
+}
+.badge:hover{
+    color: var(--color-white);
+}
+.badge:visited{
+    color: var(--color-white);
+}
+.card-body{
+    height: 100%;
+}
+.rounded-4{
+    border-radius: 2.3rem;
+}
+.ytdl-handle-btn{
+    display: none !important;
+}
+.login-form{
+    background-color: transparent;
+    
+}
+.login-form:focus{
+    background-color: transparent;
+    color: var(--color-white);
+}
+.btn-white{
+    background-color: var(--color-white);
+    color: var(--color-nav);
+    font-weight: bold;
+}
+.admin{
+    background-color: var(--color-white);
+}
+.admin-title{
+    color: var(--color-primary);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.admin-form{
+    color: var(--color-primary);
+    font-weight: 400;
+}
+.admin-form label{
+    padding-left: 30px;
+}
+.primary-bg{
+    background-color: var(--color-primary);
+}
+.pagination li a{
+    color: var(--color-white) !important;
+    background-color: transparent;
+    border-color: var(--color-secondary);
+
+}
+.pagination li a:hover{
+    color: var(--color-white) !important;
+    background-color: transparent;
+    border-color: var(--color-secondary);
+
+}
+.pagination li a:visited{
+    color: var(--color-white) !important;
+    background-color: transparent;
+    border-color: var(--color-secondary);
+}
+.pagination li a:focus{
+    color: var(--color-white) !important;
+    background-color: transparent;
+    border-color: var(--color-secondary);
+}
+.scrolling-wrapper::-webkit-scrollbar {
+    height: 2px;
+  }
+   
+  .scrolling-wrapper::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px #eaab237c;
+  }
+   
+  .scrolling-wrapper::-webkit-scrollbar-thumb {
+    background-color: var(--color-secondary);
+  }
+
+  #product-name{
+    display: block;
+    width: 190px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis !important;
+  }
+  input.form-control.login-form{
+    color: #fff !important
+  }
